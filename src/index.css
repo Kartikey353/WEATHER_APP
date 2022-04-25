@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.app{
+  background-image: url('https://cdn.wallpapersafari.com/4/58/txz0bM.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.app.warm{
+  background-image: url('https://media.istockphoto.com/photos/summer-noon-sun-picture-id1312596921?b=1&k=20&m=1312596921&s=170667a&w=0&h=Gx1PG3fxp-UL20084dKVSPncRLH5goTGBp0Xv9h7ENQ=');
+}
+
+main{
+  
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+  padding: 25px;
+  color: white;
+  font-style: italic;
+}
+
+.search-box{
+  
+  width: 100%;
+  padding: 25px;
+}
+
+.search-box .search-bar{
+  height: 60px;
+  width: 700px;
+  box-shadow: 0px 5px rgba(0,0,0,0);
+  border-radius: 40px;
+  border-color: black;
+  font-size: 30px;
+}
+
+.search-box .search-bar:hover{
+  border-radius: 50px;
+  border-color: transparent;
+  cursor: pointer;
+  border-color: yellow;
+}
+
+.location{
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+
+.weather-box{
+  font-size: 30px;
+}
+
+.date{
+  font-size: 30px;
+}
+
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: white;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  text-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+
+.weather-box .weather{
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
